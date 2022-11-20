@@ -1,0 +1,24 @@
+POST http://localhost:5500/api/employee
+Content-Type: application/json
+
+{
+    "empId":10,
+    "firstName":"Rashi",
+    "lastName":"Roy",
+    "deptName":"Marketing",
+    "location":"Kolkata"
+}
+
+###
+
+GET http://localhost:5500/api/getEmployees
+Content-Type: application/json
+
+###
+
+PUT http://localhost:5500/api/employee/6378edfb57d80f820081eb94
+Content-Type: application/json
+
+{
+    "lastName":"Styles"
+}
